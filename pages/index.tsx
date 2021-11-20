@@ -10,6 +10,7 @@ export default function Home() {
       </p>
       <Counter />
       <p>{IS_BROWSER ? "Viewing browser render." : "Viewing JIT render."}</p>
+      <p>works on deno deploy!</p>
     </div>
   );
 }
